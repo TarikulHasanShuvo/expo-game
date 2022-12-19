@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dipte-tic-tac-teo",
+    "name": "Eftee Dipte Game",
     "slug": "dipte-tic-tac-teo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.thshuvo.diptetictacteo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1557b55-7efd-4510-abfc-59d6edd48c0f"
+      }
+    },
+    "owner": "thshuvo"
   }
 }
